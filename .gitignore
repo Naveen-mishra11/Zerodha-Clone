@@ -1,0 +1,17 @@
+# Dependency folders
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Build / dist outputs
+dist/
+build/
+*.log
+
+# System / editor files
+.DS_Store
+*.swp
+*.swo
+.vscode/
