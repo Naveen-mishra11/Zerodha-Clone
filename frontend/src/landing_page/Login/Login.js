@@ -45,7 +45,7 @@ const Login = () => {
         localStorage.setItem("token", jwtToken);
         localStorage.setItem("loggedIn", username);
         setTimeout(() => {
-          window.location.href = "http://localhost:3001";
+          window.location.href = "https://zerodha-dashboardd.onrender.com";
         }, 1000);
       } else {
         handleError(message);
