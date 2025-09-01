@@ -35,7 +35,7 @@ const Signup = () => {
       return handleError("Please enter all details !");
     }
     try {
-      const url = "http://localhost:3002/signup";
+      const url = "https://zerodha-backend-jimw.onrender.com/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {

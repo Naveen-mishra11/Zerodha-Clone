@@ -30,7 +30,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:3002/login";
+      const url = "https://zerodha-backend-jimw.onrender.com/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
